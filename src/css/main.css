@@ -1,0 +1,97 @@
+
+
+
+
+
+
+.header {
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+	height:70px;
+	background-color:rgba(0, 0, 0, 0);
+	position : fixed;
+	top: 0;
+	z-index : 999;
+}
+
+.header .header-logo{
+	color:#f1c40f;
+	font-family:'Montserrat', sans serif;
+	float: left;
+	margin-left:3px;
+}
+.header .header-menu {
+	float: right;
+	margin-right : 30px;
+}
+
+.header .header-menu a {
+	margin-right: 15px;
+	color: #f1c40f;
+
+}
+
+
+
+.header .level {
+	z-index : 999;
+	position: fixed;
+	width:100%;
+	top: 0;
+	background-color: #ffffff
+}
+
+
+.banner {
+	margin-top:-20px;
+}
+
+.banner .banner-image {
+	position :relative;
+	
+}
+
+.banner .banner-content{
+	position: absolute;
+	width:100%;
+	text-align:center;
+	top:30%;
+}
+
+
+
+.about .about-single-element .icon {
+	font-size:100px;
+	text-align:center;
+}
+
+.about .about-single-element {
+	text-align:center;
+}
+
+.about .about-single-element p {
+	text-align:left;
+	margin-top:20px;
+}
+
+.heading-site {
+	text-align:center;
+	font-family:'Montserrat', sans serif;
+	font-size:30px;
+}
+
+
+.columns {
+	margin-top:50px;
+}
+
+
+
+
+
+body
+{
+background-attachment:fixed;
+background-size: cover;
+}
