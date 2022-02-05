@@ -1,6 +1,32 @@
 # Cave à vin <img alt="Title" src="/src/img/grapes-color.png" width="3%">
 
+![GitHub release (latest by date)](https://img.shields.io:/github/v/release/PandAmiral/cave-vin)
+
 Application web de gestion de cave à vin
+
+1. [Lancer le serveur](#lancer-le-serveur-local)
+
+2. [Modifier le contenu de la cave](#modifier-la-cave-à-vin)
+
+   1.a. [Ajouter une bouteille de vin](#ajouter-une-bouteille-de-vin)
+   
+   1.b. [Ajouter une appellation](#ajouter-une-appellation)
+
+   1.c [Retirer une bouteille](#retirer-une-bouteille)
+   
+   1.d [Réinitialiser la cave](#réinitialiser-la-cave)
+
+3. [Naviguer dans l'application](#navigation)
+
+4. [Requêtes supplémentaires](#requêtes-supplémentaires)
+  
+    2.a. [Bouton détails](#bouton-détails)
+    
+    2.b. [Recherche](#recherche)
+    
+    2.c. [Informations par région](#informations-par-région)
+    
+    2.d. [Mets associés à un vin](#mets-associés-à-un-vin)
 
 ## Lancer le serveur local
 
@@ -66,4 +92,4 @@ vins pour chaque région.
 
 ### Mets associés à un vin
 Le formulaire situé sous le tableau des appellations permet d'afficher
-le(s) vin(s) associés au met saisi.
+le(s) vin(s) associé(s) au met saisi.
