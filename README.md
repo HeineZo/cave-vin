@@ -47,15 +47,22 @@ nécessaires à l'identification d'un vin, ce qui comprend : son nom,
 son appellation, sa couleur, le nombre de bouteilles, et le millésime
 (année), puis appuyez sur le bouton d'envoi.
 
+<img alt="Ajouter un vin" src="https://media.discordapp.net/attachments/563777849451085824/939869000043737098/unknown.png" width="25%">
+
 ### Ajouter une appellation
 Remplissez le formulaire "Nouvelle appellation" avec toutes les
 caractéristiques d'une appellation : nom, pays, région et 5 mets
 maximum associés à l'appellation, puis appuyez sur le bouton d'envoi.
 
+<img alt="Ajouter un vin" src="https://cdn.discordapp.com/attachments/563777849451085824/939869049045794836/unknown.png" width="25%">
+
+
 ### Retirer une bouteille
 Appuyez sur le bouton avec le symbole de carré avec un crayon situé
 à côté du titre du tableau des vins puis saissez l'ID du vin que vous 
 souhaitez retirer.
+
+<img alt="Ajouter un vin" src="https://media.discordapp.net/attachments/563777849451085824/939870280149532702/unknown.png" width="25%">
 
 ### Réinitialiser la cave
 Si vous souhaitez supprimer toutes les données des vins ou des appellations, 
@@ -65,10 +72,10 @@ sous le tableau correspondant.
 ## Navigation
 
 ### Navigation sur le site
-Le menu de navigation vous permet de faire défiler la page jusqu'à
+La bar de navigation vous permet de faire défiler la page jusqu'à
 l'endroit désiré. Le logo de tonneau ramène en haut de la page,
 le bouton "Ajouter" ramène sur les deux formulaire et le bouton
-"Afficher" se centre sur le tableau des vins.
+"Afficher" centre sur le tableau des vins.
 
 ## Requêtes supplémentaires
 
