@@ -4,29 +4,29 @@
 
 Application web de gestion de cave à vin
 
-1. [Lancer le serveur](#lancer-le-serveur-local)
+- [Lancer le serveur](#lancer-le-serveur-local)
 
-2. [Modifier le contenu de la cave](#modifier-la-cave-à-vin)
+- [Modifier le contenu de la cave](#modifier-la-cave-à-vin)
 
-   1.a. [Ajouter une bouteille de vin](#ajouter-une-bouteille-de-vin)
+   - [Ajouter une bouteille de vin](#ajouter-une-bouteille-de-vin)
    
-   1.b. [Ajouter une appellation](#ajouter-une-appellation)
+   - [Ajouter une appellation](#ajouter-une-appellation)
 
-   1.c [Retirer une bouteille](#retirer-une-bouteille)
+   - [Retirer une bouteille](#retirer-une-bouteille)
    
-   1.d [Réinitialiser la cave](#réinitialiser-la-cave)
+   - [Réinitialiser la cave](#réinitialiser-la-cave)
 
-3. [Naviguer dans l'application](#navigation)
+- [Naviguer dans l'application](#navigation)
 
-4. [Requêtes supplémentaires](#requêtes-supplémentaires)
+- [Requêtes supplémentaires](#requêtes-supplémentaires)
   
-    2.a. [Bouton détails](#bouton-détails)
+    - [Bouton détails](#bouton-détails)
     
-    2.b. [Recherche](#recherche)
+    - [Recherche](#recherche)
     
-    2.c. [Informations par région](#informations-par-région)
+    - [Informations par région](#informations-par-région)
     
-    2.d. [Mets associés à un vin](#mets-associés-à-un-vin)
+    - [Mets associés à un vin](#mets-associés-à-un-vin)
 
 ## Lancer le serveur local
 
