@@ -13,8 +13,8 @@ met3 = index_appel.getvalue("met3")
 connexion = sqlite3.connect('base_vins.db')
 curseur = connexion.cursor()
 
-donnees_appel = (nom, pays, region)
-donnees_mets = (met1, met2, met3)
+donnees_appel = [nom, pays, region]
+donnees_mets = [met1, met2, met3]
 
 def ajout_appel(donnees_appel):
     """Ajoute les valeurs dans la table appellation"""
@@ -24,7 +24,7 @@ def ajout_appel(donnees_appel):
 def ajout_met(met):
     """Ajoute les valeurs dans la table mets"""
     curseur.execute(
-        """INSERT INTO Mets(nom_met) VALUES(?)""", met)
+        """INSERT INTO Mets(nom_met) VALUES(?)""", (met,))
 
 ajout_appel(donnees_appel)
 
