@@ -10,7 +10,7 @@ met1 = index_appel.getvalue("met1")
 met2 = index_appel.getvalue("met2")
 met3 = index_appel.getvalue("met3")
 
-connexion = sqlite3.connect(database='base_vins.db')
+connexion = sqlite3.connect('base_vins.db')
 curseur = connexion.cursor()
 
 donnees_appel = (nom, pays, region)
