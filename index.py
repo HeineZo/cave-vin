@@ -335,11 +335,11 @@ def affich_appel():
     print("<table class=""centre"" id=""myTable1"">")  # tableau des appellations
     print("<thead>")
     # nom de la table avec 6 colonnes
-    print("<tr><th colspan = '5'> Appellations </th></tr>")
+    print("<tr><th colspan = '4'> Appellations </th></tr>")
     print("</thead>")
     print("<tbody>")
     # en-tête
-    print("<tr><th>ID</th><th>Nom</th><th>Pays</th><th>Région</th><th>Mets</th></tr>")
+    print("<tr><th>ID</th><th>Nom</th><th>Pays</th><th>Région</th></tr>")
     # Récupérer tous les élements du tableau appellation
     curseur.execute("""SELECT * FROM Appellations""")
     for tuple in curseur:  # affichage des éléments
@@ -366,7 +366,6 @@ def affich_appel():
                         var nom = rows[i].cells[1].textContent.toUpperCase();
                         var pays = rows[i].cells[2].textContent.toUpperCase();
                         var region = rows[i].cells[3].textContent.toUpperCase();
-                        var mets = rows[i].cells[4].textContent.toUpperCase();
                         // Si l'élément correspond, alors l'afficher
                         if (id.indexOf(filter) > -1 || nom.indexOf(filter) > -1 || pays.indexOf(filter) > -1 || region.indexOf(filter) > -1 || mets.indexOf(filter) > -1) {
                             rows[i].style.display = "";
