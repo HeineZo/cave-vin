@@ -3,19 +3,16 @@ import index
 import sqlite3
 import functools
 
-# récupération des données du formulaire
 index_vin = cgi.FieldStorage()
 mets = index_vin.getvalue("search_mets")
 
-# connexion à la base 'base_vins.db'
 connexion = sqlite3.connect('base_vins.db')
 curseur = connexion.cursor()
 
 donnees_mets = (mets)
 
-
 def recherche_mets(donnees):
-    """ Recherche quel met correspond à quel vin"""
+    """Recherche les mets correspondant à un vin"""
     curseur.execute("""SELECT nom_vin
                         FROM Vins AS V 
                         JOIN Appellations AS A 

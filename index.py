@@ -3,7 +3,6 @@ import sqlite3
 import script
 import functools
 
-
 def landing_page():
     print("""
         <!DOCTYPE html>
@@ -106,7 +105,9 @@ def landing_page():
                                     <option value="" selected="selected" required>Selectionnez une région</option>
                                 </select>
                                 <label for = "mets"> Mets associés </label>
-                                <input type = "text" id = "mets" name = "mets" placeholder="Charcuterie, Fromages" required>
+                                <input type = "text" id = "met1" name = "Met associé 1" placeholder="Comté">
+                                <input type = "text" id = "met2" name = "Met associé 2" placeholder="Jambon cru">
+                                <input type = "text" id = "met3" name = "Met associé 3" placeholder="Pâté de campagne">
                                 <div>
                                     <button type="submit" class="submit">Envoyer
                                         <i class="fas fa-arrow-up"></i>

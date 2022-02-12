@@ -35,7 +35,9 @@ Application web de gestion de cave à vin
 python serveur.py
 ```
 2. Se rendre sur l'url
+```
 http://localhost:80/compl_base_vins.py
+```
 
 
 ## Modifier la cave à vin
